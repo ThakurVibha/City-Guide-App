@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vibhathakur.cityguide">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.MapActivity"></activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PermissionActivity" />
+        <activity android:name=".Common.LoginSignup.ForgetPasswordSuccessMessage" />
+        <activity android:name=".Common.LoginSignup.ForgetPasswordSucess" />
+        <activity android:name=".Common.LoginSignup.SetNewPassword" />
+        <activity android:name=".Common.LoginSignup.MakeSelection" />
+        <activity android:name=".Common.LoginSignup.ForgetPassword" />
+        <activity android:name=".Common.LoginSignup.VerifyOTP" />
+        <activity android:name=".Common.LoginSignup.SignUp3rdClass" />
+        <activity android:name=".Common.LoginSignup.SignUp2ndClass" />
+        <activity android:name=".Common.LoginSignup.SignUp1" />
+        <activity android:name=".Common.LoginSignup.Login" />
+        <activity android:name=".Common.LoginSignup.RetailerStartUpScreen" />
+        <activity android:name=".User.AllCategories" />
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".User.UserDashboard" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

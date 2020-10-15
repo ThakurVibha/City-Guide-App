@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sit_back_and_relax" />
+
+    <TextView
+        android:id="@+id/slider_heading"
+        android:layout_width="232dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:fontFamily="@font/first"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider_image" />
+
+    <TextView
+        android:id="@+id/slider_desc"
+        android:layout_width="286dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:fontFamily="@font/first"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/first_slide_desc"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider_heading" />
+
+</LinearLayout>
