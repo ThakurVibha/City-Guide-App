@@ -1,5 +1,6 @@
 # City-Guide-App
-UI Template with Firebase Login and Signup Authentication Interactive UI with Material design
+UI Template Interactive UI with Material design
+Material design UI Template Application contain Login,SignUp,Dashboard,onBorading and many more interactive screens.
 
 <p float="left">
 <img src="https://user-images.githubusercontent.com/72120614/101859917-781c1d00-3b21-11eb-83d6-748b596f3069.png" width="220" height="400" />
@@ -17,7 +18,7 @@ UI Template with Firebase Login and Signup Authentication Interactive UI with Ma
 <img src="https://user-images.githubusercontent.com/72120614/101860184-17411480-3b22-11eb-9fec-1d28997cba80.png" width="220" height="400" />
 
 <img src="https://user-images.githubusercontent.com/72120614/101860190-1ad49b80-3b22-11eb-9b70-bf8f3ad010f6.png" width="220" height="400" />
-<img src="https://user-images.githubusercontent.com/72120614/101860198-1f00b900-3b22-11eb-9e14-3b1b316b8c0d" width="220" height="400" />
+<img src="https://user-images.githubusercontent.com/72120614/101860198-1f00b900-3b22-11eb-9e14-3b1b316b8c0d.png" width="220" height="400" />
 
 
 </p>
