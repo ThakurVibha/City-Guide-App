@@ -1,5 +1,5 @@
 # City-Guide-App
-UI Template Interactive UI with Material design
+UI Template with Material design
 Material design UI Template Application contain Login,SignUp,Dashboard,onBorading and many more interactive screens.
 
 <p float="left">
